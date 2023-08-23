@@ -36,7 +36,7 @@ WHERE activities ILIKE '%Poultry Processing%';
 SELECT count(meat_processing) As meat_count, count(poultry_processing) AS poultry_count
 FROM meat_poultry_egg_establishments;
 
---Produce a count of establishments which process both
+-- Produce a count of establishments which process both
 
 SELECT count(*) AS both_count
 FROM meat_poultry_egg_establishments
